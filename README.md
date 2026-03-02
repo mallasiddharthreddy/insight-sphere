@@ -5,6 +5,8 @@ InsightSphere is an AI-powered sales intelligence platform that combines web scr
 - **scraping/**: A FastAPI-based service that intelligently scrapes company websites (via robots.txt/sitemaps, with robust fallbacks), summarizes content using AWS Bedrock AI models, and stores structured JSON summaries in S3 with presigned URLs.
 - **streamlit/**: A comprehensive Streamlit web UI that orchestrates multiple AI agents to generate tailored sales pitches, simulate realistic sales conversations, and produce actionable Sales Playbooks.
 
+- Youtube Video link of demostration : https://www.youtube.com/watch?v=I-veHxHHE78
+
 ## System Architecture
 
 ### High-Level Architecture Diagram
