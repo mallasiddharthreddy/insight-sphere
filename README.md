@@ -1,11 +1,17 @@
 # InsightSphere
 
+> **Team project — AWS AI Agent Global Hackathon 2025 (Finalist).**
+> Built at Fission Labs by a team of 5. Commits were made from our company accounts, so they do not show under my GitHub profile.
+> - Devpost (team and credits): https://devpost.com/software/insightsphere-7391gy
+> - Demo video: https://www.youtube.com/watch?v=I-veHxHHE78
+> - Original repository: https://github.com/ravikandala/insight-sphere
+>
+> **My role:** I proposed the idea, named the project, and designed the system architecture, including the 9-agent workflow (pitch generation, sales-conversation simulation with agent routing, and playbook generation) on Strands Agents and AWS Bedrock. Teammates built the AWS backend and helped refine the architecture and tools.
+
 InsightSphere is an AI-powered sales intelligence platform that combines web scraping, multi-agent conversation simulation, and strategic playbook generation. The system consists of two main services:
 
 - **scraping/**: A FastAPI-based service that intelligently scrapes company websites (via robots.txt/sitemaps, with robust fallbacks), summarizes content using AWS Bedrock AI models, and stores structured JSON summaries in S3 with presigned URLs.
 - **streamlit/**: A comprehensive Streamlit web UI that orchestrates multiple AI agents to generate tailored sales pitches, simulate realistic sales conversations, and produce actionable Sales Playbooks.
-
-- Youtube Video link of demostration : https://www.youtube.com/watch?v=I-veHxHHE78
 
 ## System Architecture
 
