@@ -1,6 +1,6 @@
 # InsightSphere
 
-> **Team project — AWS AI Agent Global Hackathon 2025 (Finalist).**
+> **Team project — AWS AI Agent Global Hackathon 2025.**
 > Built at Fission Labs by a team of 5. Commits were made from our company accounts, so they do not show under my GitHub profile.
 > - Devpost (team and credits): https://devpost.com/software/insightsphere-7391gy
 > - Demo video: https://www.youtube.com/watch?v=I-veHxHHE78 (Voiceover done by me)
